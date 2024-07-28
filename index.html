@@ -1,72 +1,111 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="styles/styles.css">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <meta name="og:title" content="Portofolio" />
     <meta name="og:description" content="A simple portolio in HTML/CSS" />
-    <meta name="og:image" content="https://avatars.githubusercontent.com/u/83034287?v=4" />
+    <meta
+      name="og:image"
+      content="https://avatars.githubusercontent.com/u/83034287?v=4"
+    />
     <link rel="icon" type="image/png" href="/code.png" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+
     <title>Portofolio</title>
-</head>
+  </head>
 
-<body class="bg-[#161616] px-3 ">
-  <header class="w-full left-0 px-3 py-3 fixed top-0 ">
-    <nav class="max-w-[560px] w-full h-14 bg-[#212121] mx-auto rounded-xl outline outline-1 outline-[#2c2c2c] shadow-lg">
-        <div class="links">
-            
+  <body class="bg-[#161616] px-3">
+    <header class="w-full left-0 px-3 py-3 fixed top-0">
+      <nav
+        class="max-w-[560px] w-full h-14 bg-[#212121] mx-auto rounded-xl outline outline-1 outline-[#2c2c2c] shadow-lg"
+      >
+        <div class="links"></div>
+      </nav>
+    </header>
+    <main
+      class="px-2 max-w-[560px] bg-[#212121] mx-auto rounded-xl outline outline-1 outline-[#2c2c2c] shadow-lg mt-20 mb-3 pt-9"
+    >
+      <!-- head -->
+      <div class="flex items-center justify-between pb-10 px-6">
+        <div class="flex items-center gap-2">
+          <div class="h-2 bg-[#616161] rounded-xl w-2"></div>
+          <h4 class="text-[#C0C0C0] text-sm">
+            Web Developer & Graphic Designer
+          </h4>
         </div>
-    </nav>
-  </header>
-  <main class="px-2 max-w-[560px] bg-[#212121] mx-auto rounded-xl outline outline-1 outline-[#2c2c2c] shadow-lg mt-20 mb-3 pt-9">
 
-    <!-- head -->
-    <div class=" flex items-center justify-between pb-10 px-6">
-      <div class="flex items-center gap-2 ">
-        <div class="h-2 bg-[#616161] rounded-xl w-2"></div>
-        <h4 class="text-[#C0C0C0] text-sm">
-          Web Developer & Graphic Designer
-        </h4>
-      </div>
-
-      <div class="">
-        <a href="#" class=" flex items-center gap-2 text-[#039754] bg-[#28C78026] w-max px-2 py-2 rounded-2xl">
-          <div class="h-2 bg-[#28C780] rounded-xl w-2 "></div>
-          <span class="lg:block hidden">
-            Available for Work
-          </span>
-        </a>
-      </div>
-    </div>
-     <!-- end head -->
-
-     <!-- Profile --->
-     <section class="flex lg:gap-10 gap-9  pb-10 px-6 items-center lg:justify-between lg:text-start text-center lg:flex-row justify-center  flex-col-reverse">
-
-      <div class="flex flex-col gap-4">
-        <h1 class="text-white text-4xl font-bold">I'm Jean Guylane</h1>
-        <p class="text-[#C0C0C0] text-[18px] lg:text-base sm:text-balance leading-8" >
-          Web developer and graphic designer from Gabon. CEO of JEaLiFe Agency.
-        </p>
-        <div class="flex lg:flex-row gap-6 lg:justify-start  justify-center ">
-          <a href="#" class="bg-[#383838] p-2 text-[#C0C0C0] rounded-md outline outline-1 outline-[#2c2c2c] shadow-lg ">
-            Hire Me
+        <div class="">
+          <a
+            href="#"
+            class="flex items-center gap-2 text-[#039754] bg-[#28C78026] w-max px-2 lg:py-2 py-0 rounded-full"
+          >
+            <div class="h-2 bg-[#28C780] rounded-xl w-2"></div>
+            <span class="lg:block hidden"> Available for Work </span>
           </a>
-          <a href="#" class="p-2 text-[#C0C0C0] rounded-md outline outline-1  outline-[#2c2c2c] shadow-lg"> Copy Email</a>
         </div>
       </div>
+      <!-- end head -->
 
-      <div class=" rounded-full overflow-hidden h-40 w-40 bg-[#2c2c2c] p-2 flex-none text-center  flex items-center justify-center">
-        <img class=" rounded-full  w-full object-cover   " src="https://framerusercontent.com/images/dDnqkzQfB3pmvEdrFSxAJSkAyyk.png" alt="">
-      </div>
+      <!-- Profile --->
+      <section
+        class="flex lg:gap-10 gap-9 pb-10 px-6 items-center lg:justify-between lg:text-start text-center lg:flex-row justify-center flex-col-reverse"
+      >
+        <div class="flex flex-col gap-4">
+          <h1 class="text-white text-4xl font-bold">I'm Jean Guylane</h1>
+          <p
+            class="text-[#C0C0C0] text-[18px] lg:text-base sm:text-balance leading-8"
+          >
+            Web developer and graphic designer from Gabon. CEO of JEaLiFe
+            Agency.
+          </p>
+          <div class="flex lg:flex-row gap-6 lg:justify-start justify-center">
+            <a
+              href="#"
+              class="bg-[#383838] px-3 text-[#C0C0C0] rounded-md outline outline-1 outline-[#2c2c2c] shadow-lg flex items-center gap-2"
+            >
+              <i class="fi fi-rr-add text-xs leading-3"></i>
+              Hire Me
+            </a>
+            <button
+              onclick="copy()"
+              class="p-2 text-[#C0C0C0] rounded-md outline outline-1 outline-[#2c2c2c] shadow-lg flex items-center gap-2"
+            >
+              <i class="fi fi-rr-clone text-xs leading-3"></i>
+              <span id="copybtn">
+                Copy Email
+              </span>
+            </button>
+          </div>
+        </div>
 
-     </section>
-    <!---------------------------- END OF profile ---------------------------->
-    
-    
-  </main>
-</body>
+        <div
+          class="rounded-full overflow-hidden h-40 w-40 bg-[#2c2c2c] p-2 flex-none text-center flex items-center justify-center"
+        >
+          <img
+            class="rounded-full w-full object-cover"
+            src="https://framerusercontent.com/images/dDnqkzQfB3pmvEdrFSxAJSkAyyk.png"
+            alt=""
+          />
+        </div>
+      </section>
+      <!---------------------------- END OF profile ---------------------------->
+    </main>
+
+
+
+
+    <script>
+      var btncopy=document.getElementById("copybtn")
+      function copy() {
+        navigator.clipboard.writeText("jealife.agency@gmail.com");
+        btncopy.innerText="Copied!!"
+      }
+    </script>
+  </body>
 </html>
