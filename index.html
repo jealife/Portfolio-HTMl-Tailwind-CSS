@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <meta name="og:title" content="Jean Guylane" />
-    <meta name="og:description" content="A simple portolio in HTML/CSS" />
+    <meta
+      name="og:description"
+      content="I'm Jean Guylane Web Developer & Graphic Designer"
+    />
+    <meta name="copyright" content="©Jean Guylane">
+    
     <meta
       name="og:image"
       content="https://avatars.githubusercontent.com/u/83034287?v=4"
@@ -16,11 +21,12 @@
       rel="stylesheet"
       href="https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css"
     />
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-brands/css/uicons-brands.css'>
 
     <title>Jean Guylane</title>
   </head>
   <body class="bg-[#161616] px-3">
-    <header class="w-full left-0 px-3 py-3 fixed top-0">
+    <header class="w-full left-0 px-3 py-3 fixed top-0 z-50">
       <nav
         class="max-w-[560px] w-full h-14 bg-[#212121] mx-auto rounded-xl outline outline-1 outline-[#2c2c2c] shadow-lg"
       >
@@ -103,7 +109,7 @@
 
       <!-- Projects --->
       <section
-        class="bg-[#2C2C2C] rounded-2xl p-6 w-full flex flex-col gap-6 flex-nowrap h-min"
+        class="bg-[#2C2C2C] rounded-xl p-6 w-full flex flex-col gap-6 flex-nowrap h-min"
       >
         <div class="flex justify-between items-center w-full">
           <div class="flex items-center gap-2">
@@ -121,7 +127,8 @@
         </div>
         <a
           href="https://tirem-t.vercel.app/"
-          class="border border-[#424242] border-1 rounded-2xl bg-[#323232] flex lg:flex-row flex-col justify-between gap-4 flex-nowrap h-min p-4 relative hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear"
+          target="_blank"
+          class="border border-[#424242] border-1 rounded-xl bg-[#323232] flex lg:flex-row flex-col justify-between gap-4 flex-nowrap h-min p-4 relative hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear"
         >
           <div
             class="rounded-full overflow-hidden h-16 w-16 bg-[#2c2c2c] p-2 flex-none text-center flex items-center justify-center"
@@ -129,7 +136,7 @@
             <img
               class="rounded-full w-full object-cover"
               src="images/TiremT.png"
-              alt=""
+              alt="Icon TiremT"
             />
           </div>
 
@@ -147,7 +154,8 @@
         </a>
         <a
           href="https://jealife-agency.vercel.app/"
-          class="border border-[#424242] border-1 rounded-2xl bg-[#323232] flex lg:flex-row flex-col justify-between gap-4 flex-nowrap h-min p-4 relative hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear"
+          target="_blank"
+          class="border border-[#424242] border-1 rounded-xl bg-[#323232] flex lg:flex-row flex-col justify-between gap-4 flex-nowrap h-min p-4 relative hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear"
         >
           <div
             class="rounded-full overflow-hidden h-16 w-16 bg-[#2c2c2c] p-2 flex-none text-center flex items-center justify-center"
@@ -155,7 +163,7 @@
             <img
               class="rounded-full w-full object-cover"
               src="images/JEaLiFe_Agency.jpg"
-              alt=""
+              alt="Logo JEaLiFe  Agency"
             />
           </div>
 
@@ -173,7 +181,8 @@
         </a>
         <a
           href="https://meca-dom-plus.vercel.app/"
-          class="border border-[#424242] border-1 rounded-2xl bg-[#323232] flex lg:flex-row flex-col justify-between gap-4 flex-nowrap h-min p-4 relative hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear"
+          target="_blank"
+          class="border border-[#424242] border-1 rounded-xl bg-[#323232] flex lg:flex-row flex-col justify-between gap-4 flex-nowrap h-min p-4 relative hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear"
         >
           <div
             class="rounded-full overflow-hidden h-16 w-16 bg-[#ffffff] p-2 flex-none text-center flex items-center justify-center"
@@ -181,7 +190,7 @@
             <img
               class="rounded-full w-full object-cover"
               src="images/mecadom.png"
-              alt=""
+              alt="Logo Mecadom plus"
             />
           </div>
 
@@ -200,7 +209,77 @@
       </section>
 
       <!---- END OF Projects ---->
+
+      <!-- Let's work --->
+      <div class="py-10 px-2 flex flex-col gap-3 relative items-center w-full">
+        <div class="flex flex-col gap-3 items-center">
+          <h4 class="text-3xl text-white font-medium">Let's Work together.</h4>
+          <p class="text-lg text-[#C0C0C0]">
+            Creating user experience and visual appealing design
+          </p>
+        </div>
+        <div class="flex lg:flex-row gap-6 lg:justify-start justify-center">
+          <a
+            href="https://wa.me/212617541079"
+            target="_blank"
+            class="bg-[#383838] px-3 text-[#C0C0C0] rounded-md border border-1 border-[#2c2c2c] hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear cursor-pointer shadow-lg flex items-center gap-2 w-max"
+          >
+            <i class="fi fi-rr-add text-xs leading-3"></i>
+            Hire Me
+          </a>
+          <button
+            onclick="copy()"
+            class="p-2 text-[#C0C0C0] rounded-md border border-1 border-[#2c2c2c] hover:outline hover:outline-4 outline-[#161616] cursor-pointer shadow-lg flex items-center gap-2 duration-300 ease-in-out"
+          >
+            <i class="fi fi-rr-clone text-xs leading-3"></i>
+            <span id="copyBtn"> Copy Email </span>
+          </button>
+        </div>
+      </div>
+
+      <!--------------- END OF Let's work -------------->
     </main>
+
+    <!--=============================== Footer =============================-->
+
+    <footer
+      class="px-2 max-w-[560px] bg-[#212121] mx-auto rounded-xl outline outline-1 outline-[#2c2c2c] shadow-lg mt-3 mb-3 pt-9 pb-6 flex flex-col gap-2"
+    >
+      <div
+        class="flex bg-[#2C2C2C] rounded-xl p-6 w-full justify-between items-center flex-nowrap h-min"
+      >
+        <div class="flex items-center gap-2">
+          <div class="h-2 bg-[#616161] rounded-xl w-2"></div>
+          <h4 class="text-[#C0C0C0] text-lg">Follow Me</h4>
+        </div>
+        <div class="flex gap-3 items-center">
+          <a href="https://github.com/jealife" target="_blank"
+            class="rounded-full text-white overflow-hidden h-10 w-10 bg-[#212121] p-2 flex-none text-center flex items-center justify-center hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear"
+          >
+          <i class="fi fi-brands-github leading-3 text-2xl"></i>
+          </a>
+          <a href="https://www.instagram.com/jealife_pictures?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"
+            class="rounded-full text-white overflow-hidden h-10 w-10 bg-[#212121] p-2 flex-none text-center flex items-center justify-center hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear"
+          >
+          <i class="fi fi-brands-instagram leading-3 text-2xl"></i>
+          </a>
+          <a href="https://www.pinterest.fr/jealifep/" target="_blank"
+            class="rounded-full text-white overflow-hidden h-10 w-10 bg-[#212121] p-2 flex-none text-center flex items-center justify-center hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear"
+          >
+          <i class="fi fi-brands-pinterest leading-3 text-2xl"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-1 py-12 px-6 items-center bg-[#2C2C2C] rounded-xl p-6 w-full flex-nowrap">
+        <div class="flex flex-col gap-1 items-center w-full">
+          <p class="text-sm text-[#a0a0a0] font-thin">
+            &copy; 2024 Jean Guylane – Portfolio
+          </p>
+        </div>
+      </div>
+
+    </footer>
 
     <!--=============================== scripts =============================-->
     <script>
