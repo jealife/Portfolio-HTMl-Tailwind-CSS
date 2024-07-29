@@ -28,7 +28,7 @@
       </nav>
     </header>
     <main
-      class="px-2 max-w-[560px] bg-[#212121] mx-auto rounded-xl outline outline-1 outline-[#2c2c2c] shadow-lg mt-20 mb-3 pt-9"
+      class="px-2 max-w-[560px] bg-[#212121] mx-auto rounded-xl outline outline-1 outline-[#2c2c2c] shadow-lg mt-20 mb-3 pt-9 pb-6"
     >
       <!-- head -->
       <div class="flex items-center justify-between pb-10 px-6">
@@ -77,7 +77,7 @@
               class="p-2 text-[#C0C0C0] rounded-md border border-1 border-[#2c2c2c] hover:outline hover:outline-4 outline-[#161616] cursor-pointer  shadow-lg flex items-center gap-2 duration-300 ease-in-out"
             >
               <i class="fi fi-rr-clone text-xs leading-3"></i>
-              <span id="copybtn"> Copy Email </span>
+              <span id="copyBtn"> Copy Email </span>
             </button>
           </div>
         </div>
@@ -94,14 +94,51 @@
       </section>
 
       <!--- END OF profile --->
+
+
+      <!-- Projects --->
+       <section class="bg-[#2C2C2C] rounded-2xl p-6 w-full flex flex-col gap-6 flex-nowrap h-min ">
+        <div class="flex justify-between items-center w-full">
+          <div class="flex items-center gap-2">
+            <div class="h-2 bg-[#616161] rounded-xl w-2"></div>
+            <h4 class="text-[#C0C0C0] text-lg">
+              Projects
+            </h4>
+          </div>
+          <a
+              href="/" target="_blank"
+              class="bg-[#383838] px-2 py-1 text-[#C0C0C0] rounded-md border border-1 border-[#2c2c2c] hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear cursor-pointer shadow-lg flex items-center gap-2"
+            >
+            View All
+            <i class="fi fi-rr-arrow-small-right leading-3"></i>
+            </a>
+        </div>
+        <a href="#" class="border border-[#424242] border-1 rounded-2xl bg-[#323232] flex justify-between flex-nowrap h-min p-4 relative">
+          <div
+          class="rounded-full overflow-hidden h-16 w-16 bg-[#2c2c2c] p-2 flex-none text-center flex items-center justify-center"
+        >
+          <img
+            class="rounded-full w-full object-cover"
+            src="images/Profile_Picture.jpg"
+            alt=""
+          />
+        </div>
+          
+        </a>
+  
+       </section>
+  
+      <!---- END OF Projects ---->
     </main>
 
+    
+    
     <!--=============================== scripts =============================-->
     <script>
-      var btncopy = document.getElementById("copybtn");
+      var btnCopy = document.getElementById("copyBtn");
       function copy() {
         navigator.clipboard.writeText("jealife.agency@gmail.com");
-        btncopy.innerText = "Copied!!";
+        btnCopy.innerText = "Copied!!";
       }
     </script>
   </body>
