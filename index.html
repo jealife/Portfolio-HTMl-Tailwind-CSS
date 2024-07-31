@@ -292,17 +292,21 @@
         </div>
       </div>
     </footer>
-
+    <audio id="audio" src="audio/checked.mp3"></audio>
     <!--=============================== scripts =============================-->
     <script>
       var btnCopy = document.getElementById("copyBtn");
+      var audio = document.getElementById("audio");
       // Permet de préfixer les navigateurs
       navigator.vibrate =
         navigator.vibrate ||
         navigator.webkitVibrate ||
         navigator.mozVibrate ||
         navigator.msVibrate;
-
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
       function copy() {
         navigator.clipboard.writeText("jealife.agency@gmail.com");
         btnCopy.innerText = "Copied!!";
@@ -310,6 +314,7 @@
         if (navigator.vibrate) {
           navigator.vibrate(500);
         }
+        play();
       }
     </script>
   </body>
