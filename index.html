@@ -27,13 +27,15 @@
     />
     <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-
+    <style>
+      body{
+        cursor: url('images/Cursor_Designed.svg'), auto;
+      }
+    </style>
     <title>Jean Guylane</title>
   </head>
-  <body class="dark:bg-[#161616] bg-[#f0F0F0] px-3 cursor-none">
-    <div
-      class="hidden lg:block z-50 group-hover:scale-150 cursor fixed w-4 h-4 rounded-3xl pointer-events-none mix-blend-difference duration-[0.15] -translate-y-2/4 -translate-x-2/4 bg-white"
-    ></div>
+  <body class="dark:bg-[#161616] bg-[#f0F0F0] px-3">
+    
     <header class="w-full left-0 px-3 py-3 fixed top-0 z-50">
       <nav
         class="max-w-[560px] flex items-center justify-between py-2 px-4 w-full h-14 dark:bg-[#212121] bg-white mx-auto rounded-xl outline outline-1 dark:outline-[#2c2c2c] outline-[#0a0a0a0f] shadow-md"
@@ -71,6 +73,9 @@
     <main
       class="px-2 max-w-[560px] dark:bg-[#212121] bg-white mx-auto rounded-xl outline outline-1 dark:outline-[#2c2c2c] outline-[#0a0a0a0f] shadow-lg mt-20 mb-3 pt-9 pb-6"
     >
+    <!-- <div
+      class="hidden lg:block z-50 cursor fixed w-4 h-4 rounded-3xl pointer-events-none mix-blend-difference duration-[0.15] -translate-y-2/4 -translate-x-2/4 bg-white"
+    ></div> -->
       <!-- head -->
       <div class="flex items-center justify-between pb-10 px-6">
         <div class="flex items-center gap-2">
@@ -193,10 +198,10 @@
           data-aos-duration="800"
           href="https://tirem-t.vercel.app/"
           target="_blank"
-          class="border group dark:border-[#424242] border-[#0a0a0a0f] border-1 rounded-xl dark:bg-[#323232] bg-white flex lg:flex-row flex-col justify-between gap-4 flex-nowrap h-min p-4 relative hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear"
+          class="border dark:border-[#424242] border-[#0a0a0a0f] border-1 rounded-xl dark:bg-[#323232] bg-white flex lg:flex-row flex-col justify-between gap-4 flex-nowrap h-min p-4 relative hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear"
         >
           <div
-            class="project rounded-full overflow-hidden h-16 w-16 dark:bg-[#2c2c2c] bg-[#F7F7F7] p-2 flex-none text-center flex items-center justify-center"
+            class="rounded-full overflow-hidden h-16 w-16 dark:bg-[#2c2c2c] bg-[#F7F7F7] p-2 flex-none text-center flex items-center justify-center"
           >
             <img
               class="rounded-full w-full object-cover"
@@ -394,13 +399,13 @@
     <script>
       AOS.init();
     </script>
-    <script>
+    <!-- <script>
       var cursor = document.querySelector(".cursor");
       document.addEventListener("mousemove", (e) => {
         cursor.style.left = e.pageX + "px";
         cursor.style.top = e.pageY + "px";
       });
-    </script>
+    </script> -->
     <script>
       var btnCopy = document.getElementById("copyBtn");
       var audio = document.getElementById("audio");
