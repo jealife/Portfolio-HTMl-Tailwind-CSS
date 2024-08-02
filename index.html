@@ -30,26 +30,38 @@
 
     <title>Jean Guylane</title>
   </head>
-  <body class="bg-[#161616] px-3">
+  <body class="dark:bg-[#161616] bg-[#f0F0F0] px-3 cursor-none">
+    <div
+      class="hidden lg:block z-50 group-hover:scale-150 cursor fixed w-4 h-4 rounded-3xl pointer-events-none mix-blend-difference duration-[0.15] -translate-y-2/4 -translate-x-2/4 bg-white"
+    ></div>
     <header class="w-full left-0 px-3 py-3 fixed top-0 z-50">
       <nav
-        class="max-w-[560px] flex items-center justify-between py-2 px-4 w-full h-14  bg-[#212121] mx-auto rounded-xl outline outline-1 outline-[#2c2c2c] shadow-lg"
+        class="max-w-[560px] flex items-center justify-between py-2 px-4 w-full h-14 dark:bg-[#212121] bg-white mx-auto rounded-xl outline outline-1 dark:outline-[#2c2c2c] outline-[#0a0a0a0f] shadow-md"
       >
         <div class="flex items-center justify-evenly gap-2">
-          <a href="/" class="p-3 duration-300 hover:bg-[#383838] flex items-center justify-center bg-[#383838] rounded-full text-[#C0C0C0] text-xl">
+          <a
+            href="/"
+            class="p-3 duration-300 dark:hover:bg-[#383838] flex items-center justify-center dark:bg-[#383838] bg-[#38383815] rounded-full dark:text-[#C0C0C0] text-[#141414] text-xl"
+          >
             <i class="fi fi-rr-home leading-3 tracking-tight"></i>
           </a>
-          <a href="#" class="p-3 duration-300 hover:bg-[#383838] flex items-center justify-center rounded-full text-[#C0C0C0] text-xl">
+          <a
+            href="#"
+            class="p-3 duration-300 dark:hover:bg-[#383838] flex items-center justify-center rounded-full dark:text-[#C0C0C0] text-xl"
+          >
             <i class="fi fi-rr-user leading-3 tracking-tight"></i>
           </a>
-          <a href="#" class="p-3 duration-300 hover:bg-[#383838] flex items-center justify-center rounded-full text-[#C0C0C0] text-xl">
+          <a
+            href="#"
+            class="p-3 duration-300 hover:bg-[#383838] flex items-center justify-center rounded-full dark:text-[#C0C0C0] text-xl"
+          >
             <i class="fi fi-rr-computer leading-3 tracking-tight"></i>
           </a>
         </div>
         <a
           href="https://wa.me/24102320395"
           target="_blank"
-          class="bg-[#383838] px-3 py-2 text-[#C0C0C0] rounded-md border border-1 border-[#2c2c2c] hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear cursor-pointer shadow-lg flex items-center gap-2 w-max"
+          class="bg-[#141414] dark:bg-[#383838] px-3 py-2 text-[#C0C0C0] rounded-md border border-1 border-[#2c2c2c] hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear cursor-pointer shadow-lg flex items-center gap-2 w-max"
         >
           <i class="fi fi-rr-add text-xs leading-3"></i>
           Hire Me
@@ -57,13 +69,13 @@
       </nav>
     </header>
     <main
-      class="px-2 max-w-[560px] bg-[#212121] mx-auto rounded-xl outline outline-1 outline-[#2c2c2c] shadow-lg mt-20 mb-3 pt-9 pb-6"
+      class="px-2 max-w-[560px] dark:bg-[#212121] bg-white mx-auto rounded-xl outline outline-1 dark:outline-[#2c2c2c] outline-[#0a0a0a0f] shadow-lg mt-20 mb-3 pt-9 pb-6"
     >
       <!-- head -->
       <div class="flex items-center justify-between pb-10 px-6">
         <div class="flex items-center gap-2">
           <div class="h-2 bg-[#616161] rounded-xl w-2"></div>
-          <h4 class="text-[#C0C0C0] text-sm">
+          <h4 class="dark:text-[#C0C0C0] text-[#666666] text-sm">
             Web Developer & Graphic Designer
           </h4>
         </div>
@@ -86,7 +98,7 @@
       >
         <div class="flex flex-col gap-4">
           <h1
-            class="text-white text-4xl font-bold"
+            class="dark:text-white text-[#373737] text-4xl font-bold"
             data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
             data-aos-duration="1000"
@@ -94,7 +106,7 @@
             I'm Jean Guylane
           </h1>
           <p
-            class="text-[#C0C0C0] text-[18px] lg:text-base sm:text-balance leading-8"
+            class="dark:text-[#C0C0C0] text-[#666666] text-[18px] lg:text-base sm:text-balance leading-8"
             data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
             data-aos-duration="1000"
@@ -119,7 +131,7 @@
             <a
               href="https://wa.me/24102320395"
               target="_blank"
-              class="bg-[#383838] rounded-full px-3 text-[#C0C0C0] rounded-md border border-1 border-[#2c2c2c] hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear cursor-pointer shadow-lg flex items-center gap-2 w-max"
+              class="dark:bg-[#383838] bg-[#141414] px-3 dark:text-[#C0C0C0] text-white rounded-md border border-1 dark:border-[#2c2c2c] hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear cursor-pointer shadow-lg flex items-center gap-2 w-max"
             >
               <i class="fi fi-rr-add text-xs leading-3"></i>
               Hire Me
@@ -127,7 +139,7 @@
             <button
               data-aos="fade-up"
               onclick="copy()"
-              class="p-2 text-[#C0C0C0] rounded-md border border-1 border-[#2c2c2c] hover:outline hover:outline-4 outline-[#161616] cursor-pointer shadow-lg flex items-center gap-2 duration-300 ease-in-out"
+              class="p-2 dark:text-[#C0C0C0] text-[#373737] bg-white dark:bg-transparent rounded-md border border-1 dark:border-[#2c2c2c] border-[#0a0a0a0f] hover:outline hover:outline-4 outline-[#161616] cursor-pointer shadow-lg flex items-center gap-2 duration-300 ease-in-out"
             >
               <i class="fi fi-rr-clone text-xs leading-3"></i>
               <span id="copyBtn"> Copy Email </span>
@@ -136,13 +148,13 @@
         </div>
 
         <div
-          class="rounded-full overflow-hidden h-40 w-40 bg-[#2c2c2c] p-2 flex-none text-center flex items-center justify-center"
+          class="rounded-full overflow-hidden h-40 w-40 dark:bg-[#2c2c2c] bg-[#F7F7F7] p-2 flex-none text-center flex items-center justify-center"
         >
           <img
             data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
             data-aos-duration="1000"
-            class="rounded-full w-full object-cover outline outline-1 outline-[#3d3d3d] outline-offset-4"
+            class="rounded-full w-full object-cover outline outline-1 dark:outline-[#3d3d3d] outline-[#2c2c2c25] outline-offset-4"
             src="images/Jean_Guylane.jpg"
             alt=""
           />
@@ -153,7 +165,7 @@
 
       <!-- Projects --->
       <section
-        class="bg-[#2C2C2C] rounded-xl p-6 w-full flex flex-col gap-6 flex-nowrap h-min"
+        class="dark:bg-[#2C2C2C] bg-[#F7F7F7] rounded-xl p-6 w-full flex flex-col gap-6 flex-nowrap h-min project"
       >
         <div
           class="flex justify-between items-center w-full"
@@ -164,12 +176,12 @@
         >
           <div class="flex items-center gap-2">
             <div class="h-2 bg-[#616161] rounded-xl w-2"></div>
-            <h4 class="text-[#C0C0C0] text-lg">Projects</h4>
+            <h4 class="dark:text-[#C0C0C0] text-[#666666] text-lg">Projects</h4>
           </div>
           <a
             href="/"
             target="_blank"
-            class="bg-[#383838] px-2 py-1 text-[#C0C0C0] rounded-md border border-1 border-[#2c2c2c] hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear cursor-pointer shadow-lg flex items-center gap-2"
+            class="dark:bg-[#383838] bg-[#141414] px-2 py-1 dark:text-[#C0C0C0] text-white rounded-md border border-1 border-[#2c2c2c] hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear cursor-pointer shadow-lg flex items-center gap-2"
           >
             View All
             <i class="fi fi-rr-arrow-small-right leading-3"></i>
@@ -181,10 +193,10 @@
           data-aos-duration="800"
           href="https://tirem-t.vercel.app/"
           target="_blank"
-          class="border border-[#424242] border-1 rounded-xl bg-[#323232] flex lg:flex-row flex-col justify-between gap-4 flex-nowrap h-min p-4 relative hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear"
+          class="border group dark:border-[#424242] border-[#0a0a0a0f] border-1 rounded-xl dark:bg-[#323232] bg-white flex lg:flex-row flex-col justify-between gap-4 flex-nowrap h-min p-4 relative hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear"
         >
           <div
-            class="rounded-full overflow-hidden h-16 w-16 bg-[#2c2c2c] p-2 flex-none text-center flex items-center justify-center"
+            class="project rounded-full overflow-hidden h-16 w-16 dark:bg-[#2c2c2c] bg-[#F7F7F7] p-2 flex-none text-center flex items-center justify-center"
           >
             <img
               class="rounded-full w-full object-cover"
@@ -195,7 +207,7 @@
 
           <div class="flex flex-col gap-1 flex-nowrap w-full">
             <div class="">
-              <h4 class="text-xl text-white">TiremT</h4>
+              <h4 class="text-xl dark:text-white text-[#373737]">TiremT</h4>
             </div>
             <div>
               <p class="text-lg text-[#C0C0C0]">Landing page, illustration</p>
@@ -211,10 +223,10 @@
           data-aos-duration="800"
           href="https://jealife-agency.vercel.app/"
           target="_blank"
-          class="border border-[#424242] border-1 rounded-xl bg-[#323232] flex lg:flex-row flex-col justify-between gap-4 flex-nowrap h-min p-4 relative hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear"
+          class="border dark:border-[#424242] border-[#0a0a0a0f] border-1 rounded-xl dark:bg-[#323232] bg-white flex lg:flex-row flex-col justify-between gap-4 flex-nowrap h-min p-4 relative hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear"
         >
           <div
-            class="rounded-full overflow-hidden h-16 w-16 bg-[#2c2c2c] p-2 flex-none text-center flex items-center justify-center"
+            class="rounded-full overflow-hidden h-16 w-16 dark:bg-[#2c2c2c] bg-[#F7F7F7] p-2 flex-none text-center flex items-center justify-center"
           >
             <img
               class="rounded-full w-full object-cover"
@@ -225,7 +237,9 @@
 
           <div class="flex flex-col gap-1 flex-nowrap w-full">
             <div class="">
-              <h4 class="text-xl text-white">JEaLiFe Agency</h4>
+              <h4 class="text-xl dark:text-white text-[#373737]">
+                JEaLiFe Agency
+              </h4>
             </div>
             <div>
               <p class="text-lg text-[#C0C0C0]">Visual Design, Branding</p>
@@ -241,10 +255,10 @@
           data-aos-duration="800"
           href="https://meca-dom-plus.vercel.app/"
           target="_blank"
-          class="border border-[#424242] border-1 rounded-xl bg-[#323232] flex lg:flex-row flex-col justify-between gap-4 flex-nowrap h-min p-4 relative hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear"
+          class="border dark:border-[#424242] border-[#0a0a0a0f] border-1 rounded-xl dark:bg-[#323232] bg-white flex lg:flex-row flex-col justify-between gap-4 flex-nowrap h-min p-4 relative hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear"
         >
           <div
-            class="rounded-full overflow-hidden h-16 w-16 bg-[#ffffff] p-2 flex-none text-center flex items-center justify-center"
+            class="rounded-full overflow-hidden h-16 w-16 bg-[#F7F7F7] p-2 flex-none text-center flex items-center justify-center"
           >
             <img
               class="rounded-full w-full object-cover"
@@ -255,7 +269,9 @@
 
           <div class="flex flex-col gap-1 flex-nowrap w-full">
             <div class="">
-              <h4 class="text-xl text-white">MecaDom Plus</h4>
+              <h4 class="text-xl dark:text-white text-[#373737]">
+                MecaDom Plus
+              </h4>
             </div>
             <div>
               <p class="text-lg text-[#C0C0C0]">Landing page, branding</p>
@@ -273,7 +289,7 @@
       <div class="py-10 px-2 flex flex-col gap-3 relative items-center w-full">
         <div class="flex flex-col gap-3 items-center">
           <h4
-            class="text-3xl text-white font-medium"
+            class="text-3xl dark:text-white text-[#373737] font-medium"
             data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
             data-aos-duration="800"
@@ -281,7 +297,7 @@
             Let's Work together.
           </h4>
           <p
-            class="text-lg text-[#C0C0C0] text-center"
+            class="text-lg dark:text-[#C0C0C0] text-[#666666] text-center"
             data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
             data-aos-duration="800"
@@ -298,14 +314,15 @@
           <a
             href="https://wa.me/24102320395"
             target="_blank"
-            class="bg-[#383838] px-3 text-[#C0C0C0] rounded-md border border-1 border-[#2c2c2c] hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear cursor-pointer shadow-lg flex items-center gap-2 w-max"
+            class="dark:bg-[#383838] bg-[#141414] px-3 dark:text-[#C0C0C0] text-white rounded-md border border-1 dark:border-[#2c2c2c] hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear cursor-pointer shadow-lg flex items-center gap-2 w-max"
           >
             <i class="fi fi-rr-add text-xs leading-3"></i>
             Hire Me
           </a>
           <button
+            data-aos="fade-up"
             onclick="copy()"
-            class="p-2 text-[#C0C0C0] rounded-md border border-1 border-[#2c2c2c] hover:outline hover:outline-4 outline-[#161616] cursor-pointer shadow-lg flex items-center gap-2 duration-300 ease-in-out"
+            class="p-2 dark:text-[#C0C0C0] text-[#373737] bg-white dark:bg-transparent rounded-md border border-1 dark:border-[#2c2c2c] border-[#0a0a0a0f] hover:outline hover:outline-4 outline-[#161616] cursor-pointer shadow-lg flex items-center gap-2 duration-300 ease-in-out"
           >
             <i class="fi fi-rr-clone text-xs leading-3"></i>
             <span id="copyBtn"> Copy Email </span>
@@ -319,37 +336,37 @@
     <!--=============================== Footer =============================-->
 
     <footer
-      class="px-2 max-w-[560px] bg-[#212121] mx-auto rounded-xl outline outline-1 outline-[#2c2c2c] shadow-lg mt-3 mb-3 pt-9 pb-6 flex flex-col gap-2"
+      class="px-2 max-w-[560px] dark:bg-[#212121] bg-white mx-auto rounded-xl outline outline-1 dark:outline-[#2c2c2c] outline-[#0a0a0a0f] shadow-lg mt-3 mb-3 pt-9 pb-6 flex flex-col gap-2"
     >
       <div
-        class="flex bg-[#2C2C2C] rounded-xl p-6 w-full justify-between items-center flex-nowrap h-min"
+        class="flex dark:bg-[#2c2c2c] bg-[#F7F7F7] rounded-xl p-6 w-full justify-between items-center flex-nowrap h-min"
         data-aos="fade-up"
         data-aos-anchor-placement="bottom-bottom"
         data-aos-duration="800"
       >
         <div class="flex items-center gap-2">
           <div class="h-2 bg-[#616161] rounded-xl w-2"></div>
-          <h4 class="text-[#C0C0C0] text-lg">Follow Me</h4>
+          <h4 class="dark:text-[#C0C0C0] text-[#666666] text-lg">Follow Me</h4>
         </div>
         <div class="flex gap-3 items-center">
           <a
             href="https://github.com/jealife"
             target="_blank"
-            class="rounded-full text-white overflow-hidden h-10 w-10 bg-[#212121] p-2 flex-none text-center flex items-center justify-center hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear"
+            class="rounded-full dark:text-white text-[#212121] overflow-hidden h-10 w-10 dark:bg-[#212121] bg-white p-2 flex-none text-center flex items-center justify-center outline outline-1 outline-[#0a0a0a0f] hover:outline hover:outline-4 dark:outline-[#161616] duration-300 ease-linear"
           >
             <i class="fi fi-brands-github leading-3 text-2xl"></i>
           </a>
           <a
             href="https://www.instagram.com/jealife_pictures?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
             target="_blank"
-            class="rounded-full text-white overflow-hidden h-10 w-10 bg-[#212121] p-2 flex-none text-center flex items-center justify-center hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear"
+            class="rounded-full dark:text-white text-[#212121] overflow-hidden h-10 w-10 dark:bg-[#212121] bg-white p-2 flex-none text-center flex items-center justify-center outline outline-1 outline-[#0a0a0a0f] hover:outline hover:outline-4 dark:outline-[#161616] duration-300 ease-linear"
           >
             <i class="fi fi-brands-instagram leading-3 text-2xl"></i>
           </a>
           <a
             href="https://www.pinterest.fr/jealifep/"
             target="_blank"
-            class="rounded-full text-white overflow-hidden h-10 w-10 bg-[#212121] p-2 flex-none text-center flex items-center justify-center hover:outline hover:outline-4 outline-[#161616] duration-300 ease-linear"
+            class="rounded-full dark:text-white text-[#212121] overflow-hidden h-10 w-10 dark:bg-[#212121] bg-white p-2 flex-none text-center flex items-center justify-center outline outline-1 outline-[#0a0a0a0f] hover:outline hover:outline-4 dark:outline-[#161616] duration-300 ease-linear"
           >
             <i class="fi fi-brands-pinterest leading-3 text-2xl"></i>
           </a>
@@ -357,14 +374,14 @@
       </div>
 
       <div
-        class="flex flex-col gap-1 py-12 px-6 items-center bg-[#2C2C2C] rounded-xl p-6 w-full flex-nowrap"
+        class="flex flex-col gap-1 py-12 px-6 items-center dark:bg-[#212121] bg-[#F7F7F7] rounded-xl p-6 w-full flex-nowrap"
         class="flex flex-col gap-1 items-center w-full"
         data-aos="fade-up"
         data-aos-anchor-placement="bottom-bottom"
         data-aos-duration="800"
       >
         <div>
-          <p class="text-sm text-[#a0a0a0] font-thin">
+          <p class="text-sm dark:text-[#a0a0a0] text-[#6E6E6E] font-thin">
             &copy; 2024 Jean Guylane – Portfolio
           </p>
         </div>
@@ -376,6 +393,13 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+    <script>
+      var cursor = document.querySelector(".cursor");
+      document.addEventListener("mousemove", (e) => {
+        cursor.style.left = e.pageX + "px";
+        cursor.style.top = e.pageY + "px";
+      });
     </script>
     <script>
       var btnCopy = document.getElementById("copyBtn");
